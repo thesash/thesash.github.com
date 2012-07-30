@@ -1,14 +1,6 @@
 // LARGE DESKTOP & UP
 // ------------------
 
-@media(min-width:768px) {
-  .stick{
-    position:fixed;
-    top:0;
-  }
-
-}
-
 @media (min-width: 1200px) {
 
   // Fixed grid
@@ -46,6 +38,14 @@
     max-width:1400px;
   }
 
+  //blog post
+  .post{
+  width:(6 * @fluidGridColumnWidth + 5 * @fluidGridGutterWidth);
+  }
+
+  .aside{
+  width:(3 * @fluidGridColumnWidth + 2 * @fluidGridGutterWidth);
+  }
 
 
 }

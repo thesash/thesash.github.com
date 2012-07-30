@@ -61,6 +61,35 @@
     position: static;
   }
 
+  //Blog
+
+    .blog-hero{
+      h1{
+        font-size:36px!important;
+      }
+      h2{
+        font-size:24px!important;
+      }
+  }
+
+
+  .leadin{
+    font-size:18px !important;
+    padding:0;
+  }
+
+  .post{
+    font-size:14px;
+    margin:0;
+
+  }
+
+  .aside{
+    font-size:10.5px;
+    width:(4 * @fluidGridColumnWidth + 3 * @fluidGridGutterWidth)!important;
+    margin: @fluidGridGutterWidth 0 @fluidGridGutterWidth (5 * @fluidGridGutterWidth)!important;
+  }
+
 }
 
 footer{
@@ -68,10 +97,8 @@ footer{
 }
 
 
-// LANDSCAPE PHONE TO SMALL DESKTOP & PORTRAIT TABLET
-// --------------------------------------------------
+@media(max-width:730px){
 
-@media (max-width: 767px) {
   // Negative indent the now static "fixed" navbar
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -106,7 +133,7 @@ footer{
   }
   // Fluid rows
   .row-fluid.solid {
-    padding:0 20px;
+    padding:0 30px;
 
   }
   // Undo negative margin on rows and thumbnails
@@ -121,16 +148,6 @@ footer{
     display: block;
     width: auto;
     margin-left: 0;
-  }
-
-  // Stripes and hero
- .stripes, .stripes.left{
-    height:254px;
-    .transition(all linear .25s); 
-  }
-
-  .hero-unit{
-    padding:38px 20px;
   }
 
   // FORM FIELDS
@@ -154,16 +171,97 @@ footer{
     width: auto;
   }
 
+  //blog post
+  .post{
+  width:100% !important;
+  margin:0!important;
+  }
+
+  .leadin{
+    padding:0;
+  }
+
+  .blog-hero{
+    padding:30px 40px;
+
+  }
+
+}
+
+
+// LANDSCAPE PHONE TO SMALL DESKTOP & PORTRAIT TABLET
+// --------------------------------------------------
+
+@media (max-width: 767px) {
+
+
+  // Stripes and hero
+ .stripes, .stripes.left{
+    height:254px;
+    .transition(all linear .25s); 
+  }
+
+  .hero-unit{
+    padding:38px 30px;
+  }
+
   footer{
     padding:0 20px;
+  }
+
+  //homepage
+  .padded{
+    font-size:24px;
+  }
+
+  //blog post
+
+  .blog-hero{
+    padding:30px 30px 10px 30px;
+      h1{
+        font-size:40px;
+      }
+      h2{
+        font-size:28px;
+      }
+  }
+
+
+
+  .leadin{
+    font-size:22px;
+  }
+
+  .post{
+    width:(10 * @fluidGridColumnWidth + 8 * @fluidGridGutterWidth);
+    margin:0 0 0  (2 * @fluidGridColumnWidth+ 2 * @fluidGridGutterWidth);
+  }
+
+  .aside{
+    position:relative;
+    float:right;
+    width:(4 * @fluidGridColumnWidth + 3 * @fluidGridGutterWidth);
+    margin: @fluidGridGutterWidth 0 @fluidGridGutterWidth (3 * @fluidGridGutterWidth);
   }
 
 
 }
 
+@media(min-width:481px) {
+  .stick{
+    position:fixed;
+    top:0;
+  }
+
+}
+
 @media (max-width: 480px) {
   // Stripes and hero
-  .stripes, .stripes.left{
+  .stripes{
+    display:none;
+  }
+  .stripes.left{
+    display:block;
     height:168px;
     .transition(all linear .25s); 
   }
@@ -174,7 +272,6 @@ footer{
 
 
   .padded{
-    font-size:24px;
     padding:20px 0 10px 0;
   }
 

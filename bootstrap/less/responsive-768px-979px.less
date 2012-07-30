@@ -3,14 +3,24 @@
 
 @media (min-width: 768px) and (max-width: 979px) {
 
-  // Fixed grid
-  #grid > .core(42px, 20px);
-
   // Fluid grid
   #grid > .fluid(5.801104972%, 2.762430939%);
 
   // Input grid
   #grid > .input(42px, 20px);
+
+    //blog post
+  .post{
+	width:(10 * @fluidGridColumnWidth + 9 * @fluidGridGutterWidth);
+	margin-right:0;
+  }
+
+  .aside{
+  	position:relative;
+  	float:right;
+  	width:(3 * @fluidGridColumnWidth + 2 * @fluidGridGutterWidth);
+	margin: @fluidGridGutterWidth 0 @fluidGridGutterWidth (3 * @fluidGridGutterWidth);
+  }
 
 
 }
