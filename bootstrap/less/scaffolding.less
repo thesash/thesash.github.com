@@ -1,0 +1,67 @@
+// Scaffolding
+// Basic and global styles for generating a grid system, structural layout, and page templates
+// -------------------------------------------------------------------------------------------
+
+
+// Body reset
+// ----------
+
+body {
+  margin: 0;
+  font-family: @baseFontFamily;
+  font-size: @baseFontSize;
+  line-height: @baseLineHeight;
+  color: @textColor;
+  background-color: @bodyBackground;
+  -webkit-font-smoothing:antialiased;
+  border-left:12px solid #e1e1dd;
+}
+
+
+// Links
+// -----
+
+a {
+  color: @linkColor;
+  text-decoration: none;
+}
+a:hover {
+  color: @linkColorHover;
+  text-decoration: underline;
+}
+
+//Striped Background
+//----------------
+
+.stripes{
+  position:absolute;
+  height:@stripes;
+  width:100%;
+  left:0;
+  z-index:-1;
+  #gradient > .stripes(-90deg, 0.3);
+  border-bottom:1px solid #e1e1dd;
+  .transition(all linear .2s) 
+
+}
+
+//Striped background borders
+
+.stripes.left{
+  width:12px;
+  z-index:0;
+  #gradient > .stripes(-90deg, 1);
+  border-bottom:1px solid #b9b9b9;
+
+}
+
+.sticky{
+  position:fixed;
+}
+
+footer{
+  padding:0 40px;
+  font-size:14px;
+  font-family:@sansFontFamily;
+  color:@grayLight;
+}
