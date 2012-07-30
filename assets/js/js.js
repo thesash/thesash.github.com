@@ -3,12 +3,13 @@ $(window).load($(function()
     var elem = $(".stripes");
     var top = elem.offset().top;
     var scrollHandler = function()
+    
     {
       var scrollTop = $(window).scrollTop();
-      if (scrollTop<top) {
-        elem.css({position:"absolute",top:""})//should be "static" I think
+      if (scrollTop>top) {
+        $('.stripes').addClass('stick')
       } else {
-        elem.css({position:"fixed",top:"0px"})
+        $('.stripes').removeClass('stick')
       }
     }
     $(window).scroll(scrollHandler);scrollHandler()
