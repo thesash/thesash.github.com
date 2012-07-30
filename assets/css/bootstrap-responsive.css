@@ -426,6 +426,12 @@ footer {
     width: 32px;
   }
 }
+@media (min-width: 768px) {
+  .stick {
+    position: fixed;
+    top: 0;
+  }
+}
 @media (min-width: 1200px) {
   .row {
     margin-left: -30px;
