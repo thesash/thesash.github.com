@@ -27,10 +27,16 @@
 	line-height:31px;
 	font-style:italic;
 	padding:0 0 20px 0;
+	float:left;
+	width:(10 * @fluidGridColumnWidth + 8 * @fluidGridGutterWidth);
+	margin-left: @fluidGridGutterWidth;
 }
 
 .date{
+	font-family:@sansFontFamily;
+	text-transform:uppercase;
 	line-height:31px;
+	color:@grayLight;
 }
 
 .row-fluid{
@@ -42,7 +48,7 @@
 }
 
 .post{
-	width:(6 * @fluidGridColumnWidth + 5 * @fluidGridGutterWidth);
+	width:(7 * @fluidGridColumnWidth + 6 * @fluidGridGutterWidth);
 	float:left;
 	margin-right:(4 * @fluidGridColumnWidth + 4 * @fluidGridGutterWidth);
 	margin-left:(2 * @fluidGridColumnWidth+ 2 * @fluidGridGutterWidth);

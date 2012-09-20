@@ -122,23 +122,23 @@
     position: static;
   }
   .blog-hero h1 {
-    font-size: 36px!important;
-  }
-  .blog-hero h2 {
     font-size: 24px!important;
   }
+  .blog-hero h2 {
+    font-size: 18px!important;
+  }
   .leadin {
-    font-size: 18px !important;
+    font-size: 20px !important;
     padding: 0;
   }
   .post {
-    font-size: 14px;
+    font-size: 18px;
     margin: 0;
   }
   .aside {
-    font-size: 10.5px;
-    width: 29.78723404% !important;
-    margin: 0 0 0 6.382978722% !important;
+    font-size: 12px;
+    width: 99.99999998999999% !important;
+    padding: 20px 0;
     vertical-align: baseline;
   }
 }
@@ -163,6 +163,8 @@ footer {
   .dl-horizontal dd {
     margin-left: 0;
   }
+}
+@media (max-width: 767px) {
   .container {
     width: auto;
   }
@@ -202,15 +204,6 @@ footer {
     display: inline-block;
     width: auto;
   }
-  .post {
-    width: 100% !important;
-    margin: 0!important;
-  }
-  .leadin {
-    padding: 0;
-  }
-}
-@media (max-width: 767px) {
   .stripes,
   .stripes.left {
     height: 254px;
@@ -230,20 +223,26 @@ footer {
     font-size: 24px;
   }
   .blog-hero {
-    padding: 30px 30px 20px 30px;
+    margin: 0px 30px 30px 30px;
+    padding: 30px 0px 20px 0px;
   }
   .blog-hero h1 {
     font-size: 40px;
   }
   .blog-hero h2 {
-    font-size: 28px;
+    font-size: 20px;
+  }
+  .blog-hero .post {
+    width: 100% !important;
+    margin-left: 0!important;
+  }
+  .blog-hero .leadin {
+    padding: 0;
   }
   .leadin {
     font-size: 22px;
-  }
-  .post {
-    width: 80.851063822%;
-    margin: 0 0 0 17.021276594%;
+    width: 99.99999998999999%;
+    margin-left: 0;
   }
   .aside {
     position: relative;
@@ -393,6 +392,19 @@ footer {
   }
   input.span1, textarea.span1, .uneditable-input.span1 {
     width: 32px;
+  }
+  .blog-hero {
+    padding: 10px 0px 20px 0px;
+  }
+  .blog-hero h1 {
+    font-size: 40px;
+  }
+  .blog-hero h2 {
+    font-size: 20px;
+  }
+  .leadin {
+    width: 82.97872339599999%;
+    margin-left: 2.127659574%;
   }
   .post {
     width: 82.97872339599999%;
@@ -644,11 +656,15 @@ footer {
     padding: 0 5%;
     max-width: 1400px;
   }
+  .leadin {
+    width: 74.468085099%;
+    margin-left: 2.127659574%;
+  }
   .post {
-    width: 48.93617020799999%;
+    width: 57.446808505%;
   }
   .aside {
-    width: 23.404255317%;
+    width: 14.89361702%;
   }
 }
 @media (max-width: 767px) {

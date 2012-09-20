@@ -65,29 +65,29 @@
 
     .blog-hero{
       h1{
-        font-size:36px!important;
+        font-size:24px!important;
       }
       h2{
-        font-size:24px!important;
+        font-size:18px!important;
       }
   }
 
 
   .leadin{
-    font-size:18px !important;
+    font-size:20px !important;
     padding:0;
   }
 
   .post{
-    font-size:14px;
+    font-size:18px;
     margin:0;
 
   }
 
   .aside{
-    font-size:10.5px;
-    width:(4 * @fluidGridColumnWidth + 2 * @fluidGridGutterWidth)!important;
-    margin: 0 0 0 (3 * @fluidGridGutterWidth)!important;
+    font-size:12px;
+    width:(12* @fluidGridColumnWidth + 11 * @fluidGridGutterWidth)!important;
+    padding: 20px 0;
     vertical-align: baseline;
   }
 
@@ -126,6 +126,15 @@ footer{
     }
   }
 
+
+
+}
+
+
+// LANDSCAPE PHONE TO SMALL DESKTOP & PORTRAIT TABLET
+// --------------------------------------------------
+
+@media (max-width: 767px) {
   // GRID & CONTAINERS
   // -----------------
   // Remove width from containers
@@ -172,26 +181,6 @@ footer{
     width: auto;
   }
 
-  //blog post
-  .post{
-  width:100% !important;
-  margin:0!important;
-  }
-
-  .leadin{
-    padding:0;
-  }
-
-
-}
-
-
-// LANDSCAPE PHONE TO SMALL DESKTOP & PORTRAIT TABLET
-// --------------------------------------------------
-
-@media (max-width: 767px) {
-
-
   // Stripes and hero
  .stripes, .stripes.left{
     height:254px;
@@ -214,24 +203,33 @@ footer{
   //blog post
 
   .blog-hero{
-    padding:30px 30px 20px 30px;
+    margin:0px 30px 30px 30px;
+    padding:30px 0px 20px 0px;
       h1{
         font-size:40px;
       }
       h2{
-        font-size:28px;
+        font-size:20px;
       }
+
+
+        //blog post
+  .post{
+  width:100% !important;
+  margin-left: 0!important;
+  }
+
+  .leadin{
+    padding:0;
+  }
   }
 
 
 
   .leadin{
     font-size:22px;
-  }
-
-  .post{
-    width:(10 * @fluidGridColumnWidth + 8 * @fluidGridGutterWidth);
-    margin:0 0 0  (2 * @fluidGridColumnWidth+ 2 * @fluidGridGutterWidth);
+    width:(12 * @fluidGridColumnWidth + 11 * @fluidGridGutterWidth);
+    margin-left: 0;
   }
 
   .aside{
