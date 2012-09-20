@@ -122,16 +122,18 @@
     position: static;
   }
   .blog-hero h1 {
-    font-size: 24px!important;
+    font-size: 30px!important;
   }
   .blog-hero h2 {
-    font-size: 18px!important;
+    font-size: 20px!important;
   }
   .leadin {
     font-size: 20px !important;
     padding: 0;
   }
   .post {
+    width: 100%;
+    margin: 0;
     font-size: 18px;
     margin: 0;
   }
@@ -232,11 +234,11 @@ footer {
   .blog-hero h2 {
     font-size: 20px;
   }
-  .blog-hero .post {
+  .post {
     width: 100% !important;
     margin-left: 0!important;
   }
-  .blog-hero .leadin {
+  .leadin {
     padding: 0;
   }
   .leadin {
@@ -400,7 +402,7 @@ footer {
     font-size: 40px;
   }
   .blog-hero h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
   .leadin {
     width: 82.97872339599999%;

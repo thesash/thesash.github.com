@@ -184,7 +184,7 @@ a:hover {
 footer {
   padding: 0 40px;
   font-size: 14px;
-  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #999999;
 }
 .row {
@@ -3037,7 +3037,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar {
   color: #252525;
-  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar .brand:hover {
   text-decoration: none;
@@ -3115,7 +3115,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-search .search-query {
   padding: 4px 9px;
-  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -4278,7 +4278,9 @@ a.badge:hover {
   margin-left: 2.127659574%;
 }
 .date {
-  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
   text-transform: uppercase;
   line-height: 31px;
   color: #999999;
@@ -4304,7 +4306,7 @@ a.badge:hover {
   float: left;
   color: #999999;
   width: 23.404255317%;
-  font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 21px;
   hyphens: auto;
