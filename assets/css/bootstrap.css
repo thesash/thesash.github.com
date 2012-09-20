@@ -133,11 +133,11 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Chaparral Pro", Georgia, "Times New Roman", Times, serif;
+  font-family: "ff-tisa-web-pro", Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 28px;
   color: #000000;
-  background-color: #f8f8f3;
+  background-color: #f8f8f5;
   -webkit-font-smoothing: antialiased;
   border-left: 12px solid #e1e1dd;
 }
@@ -155,7 +155,7 @@ a:hover {
   width: 100%;
   left: 0;
   z-index: -1;
-  background-color: #f8f8f3;
+  background-color: #f8f8f5;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.2, rgba(245, 199, 134, 0.3)), color-stop(0.2, rgba(222, 205, 123, 0.3)), color-stop(0.4, rgba(222, 205, 123, 0.3)), color-stop(0.4, rgba(176, 211, 115, 0.3)), color-stop(0.6, rgba(176, 211, 115, 0.3)), color-stop(0.6, rgba(146, 200, 145, 0.3)), color-stop(0.8, rgba(146, 200, 145, 0.3)), color-stop(0.8, rgba(124, 183, 187, 0.3)));
   background-image: -webkit-linear-gradient(-90deg, rgba(245, 199, 134, 0.3) 20%, rgba(222, 205, 123, 0.3) 20%, rgba(222, 205, 123, 0.3) 40%, rgba(176, 211, 115, 0.3) 40%, rgba(176, 211, 115, 0.3) 60%, rgba(146, 200, 145, 0.3) 60%, rgba(146, 200, 145, 0.3) 80%, rgba(124, 183, 187, 0.3) 80%, rgba(124, 183, 187, 0.3) 100%);
   background-image: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -172,7 +172,7 @@ a:hover {
 .stripes.left {
   width: 12px;
   z-index: 0;
-  background-color: #f8f8f3;
+  background-color: #f8f8f5;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.2, #f5c786), color-stop(0.2, #decd7b), color-stop(0.4, #decd7b), color-stop(0.4, #b0d373), color-stop(0.6, #b0d373), color-stop(0.6, #92c891), color-stop(0.8, #92c891), color-stop(0.8, #7cb7bb));
   background-image: -webkit-linear-gradient(-90deg, #f5c786 20%, #decd7b 20%, #decd7b 40%, #b0d373 40%, #b0d373 60%, #92c891 60%, #92c891 80%, #7cb7bb 80%, #7cb7bb 100%);
   background-image: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -184,7 +184,7 @@ a:hover {
 footer {
   padding: 0 40px;
   font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
   color: #999999;
 }
 .row {
@@ -420,7 +420,7 @@ h6 {
 }
 h1 {
   font-size: 30px;
-  font-family: "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
   line-height: 56px;
@@ -673,7 +673,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Chaparral Pro", Georgia, "Times New Roman", Times, serif;
+  font-family: "ff-tisa-web-pro", Georgia, "Times New Roman", Times, serif;
 }
 label {
   display: block;
@@ -3040,7 +3040,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar {
   color: #000000;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
 }
 .navbar .brand:hover {
   text-decoration: none;
@@ -3118,7 +3118,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-search .search-query {
   padding: 4px 9px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -4296,7 +4296,7 @@ a.badge:hover {
   float: left;
   color: #999999;
   width: 23.404255317%;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "futura-pt", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 21px;
   hyphens: auto;
